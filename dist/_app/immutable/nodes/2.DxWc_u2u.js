@@ -1,1 +1,0 @@
-import"../chunks/NZTpNUN0.js";import"../chunks/B_zhfS5Q.js";import{f as r,a as t,n}from"../chunks/DNHTCZ5S.js";var e=r("<h1>Akash K Tesla</h1> Under construction",1);function f(o){var a=e();n(),t(o,a)}export{f as component};
