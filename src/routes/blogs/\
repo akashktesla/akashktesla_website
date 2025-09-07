@@ -6,9 +6,8 @@
   for (const key in modules){
     try{
       let meta = modules[key].metadata;
-      let raw = key.split("/");
+      let raw = modules.default.split("/");
       let path = raw[raw.length-1].replace(".svelte","");
-      console.log(path)
       posts.push({description:meta.description, title:meta.title, path:path});
     }
     catch{
@@ -64,7 +63,7 @@
     <li>
       <a href={`/blogs/${post.path}`}>
         <div class="card">
-          <h2>{post.title}</h2>
+          <h2>{post[title]}</h2>
           <p>{post.description}</p>
         </div>
       </a>
