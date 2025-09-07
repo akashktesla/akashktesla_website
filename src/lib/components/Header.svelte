@@ -38,9 +38,6 @@
     color: #00ffff; /* cyan on hover */
   }
 
-  main {
-    padding: 20px;
-  }
   .name {
     display:flex;
     justify-content:space-between;
@@ -64,6 +61,6 @@
     <a href="/">Home</a>
     <a href="/profile">Profile</a>
     <a href="/projects">Projects</a>
-    <a href="/blog">Blog</a>
+    <a href="/blogs">Blogs</a>
   </nav>
 </header>

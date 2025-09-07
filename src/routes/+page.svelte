@@ -4,7 +4,6 @@
 <Header/>
 
 <main>
-  <break>
   Hi There, Akash here The Page is under construction
 </main>
 
