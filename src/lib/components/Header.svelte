@@ -72,7 +72,7 @@
   </div>
   <nav>
     <a href="/">Home</a>
-    <a href="https:github.com/akashktesla">Projects</a>
+    <a href="https://github.com/akashktesla" target="_blank" >Projects</a>
     <a href="/blogs">Blogs</a>
   </nav>
 <hr class="header-separator" />
