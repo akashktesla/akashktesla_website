@@ -25,6 +25,7 @@
   <li>Finish other blogs</li>
   <li>Add a search functionality to blogs page</li>
   <li>complete profile</li>
+  <li>Add a Footer to PageBase</li>
 </ul>
 <h1>DONE</h1>
 <ul>

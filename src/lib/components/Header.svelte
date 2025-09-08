@@ -3,6 +3,15 @@
 </script>
 
 <style>
+
+  .header-separator {
+    border: none;
+    border-top: 2px solid #ffffff; /* cyan solid line */
+    margin: 0; /* optional, you can add margin if you want space */
+    width: 100%;
+  }
+
+
   :global(body) {
     margin: 0;
     background-color: #111111;
@@ -11,12 +20,16 @@
   }
 
   header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;  
     background-color: black;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
+
   }
 
   h1 {
@@ -59,8 +72,9 @@
   </div>
   <nav>
     <a href="/">Home</a>
-    <a href="/profile">Profile</a>
-    <a href="/projects">Projects</a>
+    <a href="https:github.com/akashktesla">Projects</a>
     <a href="/blogs">Blogs</a>
   </nav>
+<hr class="header-separator" />
 </header>
+

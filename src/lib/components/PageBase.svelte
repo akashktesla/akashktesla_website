@@ -1,5 +1,6 @@
 <script lang="ts">
   import Header from "$lib/components/Header.svelte";
+  import Footer from "./Footer.svelte";
 </script>
 
 <style>
@@ -12,6 +13,8 @@
   .main-pannel{
     flex:1;
     background-color: #000000;
+    display:flex;
+    flex-direction:column;
 
   }
   .parent{
@@ -20,8 +23,8 @@
     min-height:100vh;
   }
   .side-pannel{
-    opacity:0.1;
-    width: 10rem;
+    opacity:0.15;
+    width: 10%;
     background-color: #000000;
     background-image: url('$lib/assets/matrix.jpg');
     background-repeat:no-repeat repeat;      /* repeats the image horizontally + vertically */
@@ -40,5 +43,5 @@
     </div>
     <div class = "side-pannel"></div>
   </div>
+  <Footer/>
 </div>
-
