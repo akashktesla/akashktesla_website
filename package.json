@@ -29,6 +29,8 @@
 		"buffer": "^6.0.3",
 		"front-matter": "^4.0.2",
 		"gray-matter": "^4.0.3",
-		"marked": "^16.2.1"
+		"marked": "^16.2.1",
+		"pdfjs-dist": "^5.4.149",
+		"svelte-pdf": "^1.0.28"
 	}
 }

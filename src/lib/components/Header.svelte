@@ -6,7 +6,7 @@
 
   .header-separator {
     border: none;
-    border-top: 2px solid #ffffff; /* cyan solid line */
+    border-top: 1px solid #ffffff; /* cyan solid line */
     margin: 0; /* optional, you can add margin if you want space */
     width: 100%;
   }
@@ -24,11 +24,12 @@
     top: 0;
     z-index: 1000;  
     background-color: black;
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
+    border-bottom: 0;
 
   }
 
@@ -75,6 +76,5 @@
     <a href="https://github.com/akashktesla" target="_blank" >Projects</a>
     <a href="/blogs">Blogs</a>
   </nav>
-<hr class="header-separator" />
 </header>
 

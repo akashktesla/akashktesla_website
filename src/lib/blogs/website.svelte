@@ -24,8 +24,6 @@
 <ul>
   <li>Finish other blogs</li>
   <li>Add a search functionality to blogs page</li>
-  <li>complete profile</li>
-  <li>Add a Footer to PageBase</li>
 </ul>
 <h1>DONE</h1>
 <ul>
@@ -34,6 +32,8 @@
   <li>Dynamic Blog from markdown</li>
   <li>Dynamic Blog from svelte</li>
   <li>configure metadata use that to display the blogs </li>
+  <li>complete profile</li>
+  <li>Add a Footer to PageBase</li>
 </ul>
 
 <h1>Change Logs</h1>
@@ -50,6 +50,15 @@
   <li>Created PageBase component which handles basic structure of the page across
   the website</li>
   <li>configure metadata use that to display the blogs </li>
+</ul>
+<h2>[08-09-2025]</h2>
+<ul>
+  <li>Completed my profile </li>
+  <li>Fixed some issues and made the website more dynamic </li>
+</ul>
+<h2>[10-09-2025]</h2>
+<ul>
+  <li>Added few blog posts</li>
 </ul>
 
 
