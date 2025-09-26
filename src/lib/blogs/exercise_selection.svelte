@@ -9,6 +9,12 @@
 <style>
   .main{
     padding-left: 20px;
+    padding-right: 20px;
+  }
+  P{
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.4em;
   }
 </style>
 
@@ -16,7 +22,7 @@
 <!-- Exercise Selection — drop into your .svelte blog -->
 <article class="exercise-selection">
   <header>
-    <h1>Exercise Selection</h1>
+    <h1 style="text-align:center">Exercise Selection</h1>
     <p>
       It's important to choose exercises that best suit you. Below are some tips on how to pick what's
       right for you, plus the exercises I choose for myself. Use whatever works and swap variations based 

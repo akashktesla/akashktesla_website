@@ -9,6 +9,12 @@
 <style>
   .main{
     padding-left:20px;
+    padding-right:20px;
+  }
+  P{
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.4em;
   }
   </style>
 
@@ -16,7 +22,7 @@
 
 <!-- Workout Split — ready for your .svelte blog -->
 <article class="workout-split">
-  <h1>Workout Split</h1>
+  <h1 style = "text-align: center;">Workout Split</h1>
   <p>
     Choose a workout split that best suits the time you have and the goals you want to achieve.
     I have two main goals in a cycle: <strong>bulk</strong> (add muscle) and <strong>cut</strong>
