@@ -30,6 +30,11 @@
     background-repeat:no-repeat repeat;      /* repeats the image horizontally + vertically */
     background-size: 10rem 10rem ;     /* size of each tile */
   }
+    @media (max-width: 1000px) {
+    .side-pannel{
+      width:0%;
+    }
+  }
 
 </style>
 
