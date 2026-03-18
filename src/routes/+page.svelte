@@ -36,21 +36,28 @@
   }
 
   ul {
-    list-style: disc inside;
+    list-style: none;
     color: #ccc;
+  }
+  ul li:before{
+    content: "> ";
+    color: #aaaaaa;
+    opacity: 0.7;
+
   }
 
   ul li {
     margin-bottom: 0.5rem;
   }
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
 
-  a:hover {
-    color: #00ffff; /* cyan on hover */
+a {
+color: white;
+       text-decoration: none;
+}
+
+a:hover {
+color: #00ffff; /* cyan on hover */
   }
 
 
@@ -58,52 +65,52 @@
 
 <PageBase>
 
-  <div class="profile-photo">
-    <img src="/images/akash.jpg" alt="Profile Photo" class="profile"/>
-    <div class="bio">
-      <h1>Akash K <i>Tesla</i>⚡  </h1> 
-      <h2>Machines and Muscles </h2>
-      <p>
-        Lives on Arch Linux and chaos energy.<br>
-        Visit my <a href="/blogs">Blog</a> to learn about cool stuff
-      </p>
-    </div>
+<div class="profile-photo">
+<img src="/images/akash.jpg" alt="Profile Photo" class="profile"/>
+<div class="bio">
+<h1>Akash K <i>Tesla</i>  </h1> 
+<h2>Machines and Muscles </h2>
+<p>
+Lives on Arch Linux and chaos energy.<br>
+Visit my <a href="/blogs">Blog</a> to learn about cool stuff
+</p>
+</div>
 
-  </div>
-  <!-- Hobbies / Interests -->
-  <section>
-    <h3>Hobbies & Interests</h3>
-    <ul>
-      <li>Machining & Robotics</li>
-      <li>AI / AGI Development</li>
-      <li>Developer (Game, Web, App) </li>
-      <li>Mechanical Engineering</li>
-      <li>Bodybuilding</li>
-      <li>MMA - Muay Thai, Boxing, Grappling</li>
-      <li>Rock Climbing</li>
-    </ul>
-  </section>
+</div>
+<!-- Hobbies / Interests -->
+<section>
+<h3>Hobbies & Interests</h3>
+<ul>
+<li>Machining & Robotics</li>
+<li>AI / AGI Development</li>
+<li>Developer (Game, Web, App) </li>
+<li>Mechanical Engineering</li>
+<li>Bodybuilding</li>
+<li>MMA - Muay Thai, Boxing, Grappling</li>
+<li>Rock Climbing</li>
+</ul>
+</section>
 
-  <!-- Skills -->
-  <section>
-    <h3>Skillset</h3>
-    <ul>
-      <li>Python, Rust, c, c++, js, ts...</li>
-      <li>Machine Learning & AI</li>
-      <li>Robotics & Mechatronics</li>
-      <li>CAD & Machining</li>
-      <li>Mechanical Design & Analysis</li>
-      <li>Developement (Game, Web, App) </li>
-      <li>Combat Sports</li>
-    </ul>
-  </section>
+<!-- Skills -->
+<section>
+<h3>Skillset</h3>
+<ul>
+<li>Python, Rust, c, c++, js, ts...</li>
+<li>Machine Learning & AI</li>
+<li>Robotics & Mechatronics</li>
+<li>CAD & Machining</li>
+<li>Mechanical Design & Analysis</li>
+<li>Developement (Game, Web, App) </li>
+<li>Combat Sports</li>
+</ul>
+</section>
 
-  <section>
-    <h3>Education</h3>
-    <ul>
-      <li>B.Tech in Computer and Communications - [Amrita University]</li>
-      <li>Online Certifications: Google Cloud Practioner Advanced AI & ML Expert </li>
-    </ul>
-  </section>
+<section>
+<h3>Education</h3>
+<ul>
+<li>B.Tech in Computer and Communications - [Amrita University]</li>
+<li>Online Certifications: Google Cloud Practioner Advanced AI & ML Expert </li>
+</ul>
+</section>
 
 </PageBase>
