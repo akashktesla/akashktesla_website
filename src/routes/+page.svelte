@@ -29,7 +29,7 @@
   }
   section h3 {
     font-size: 1.5rem;
-    color: #f0f0f0;
+    color: #ffffff;
     margin-bottom: 0.5rem;
     border-bottom: 2px solid #555;
     padding-bottom: 0.25rem;
@@ -37,12 +37,12 @@
 
   ul {
     list-style: none;
-    color: #ccc;
+    color: #ffffff;
   }
   ul li:before{
     content: "> ";
-    color: #aaaaaa;
-    opacity: 0.7;
+    color: #ffffff;
+    opacity: 0.8;
 
   }
 
@@ -66,7 +66,7 @@ color: #00ffff; /* cyan on hover */
 <PageBase>
 
 <div class="profile-photo">
-<img src="/images/akash.jpg" alt="Profile Photo" class="profile"/>
+<img src="/images/stick_akash_laptop.jpg" alt="Profile Photo" class="profile"/>
 <div class="bio">
 <h1>Akash K <i>Tesla</i>  </h1> 
 <h2>Machines and Muscles </h2>
