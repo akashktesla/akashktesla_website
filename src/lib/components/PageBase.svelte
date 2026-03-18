@@ -26,9 +26,9 @@
     opacity:0.15;
     width: 10%;
     background-color: #000000;
-    background-image: url('$lib/assets/matrix.jpg');
-    background-repeat:no-repeat repeat;      /* repeats the image horizontally + vertically */
-    background-size: 10rem 10rem ;     /* size of each tile */
+    /*background-image: url('$lib/assets/matrix.jpg');
+    background-repeat:no-repeat repeat;  
+    background-size: 10rem 10rem ;*/
   }
     @media (max-width: 1000px) {
     .side-pannel{

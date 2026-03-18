@@ -4,14 +4,6 @@
 
 <style>
 
-  .header-separator {
-    border: none;
-    border-top: 1px solid #ffffff; /* cyan solid line */
-    margin: 0; /* optional, you can add margin if you want space */
-    width: 100%;
-  }
-
-
   :global(body) {
     margin: 0;
     background-color: #111111;
@@ -49,7 +41,7 @@
   }
 
   nav a:hover {
-    color: #00ffff; /* cyan on hover */
+    color: #aaaaaa; /* cyan on hover */
   }
 
   .name {
@@ -72,9 +64,9 @@
   <h1>Akash K Tesla</h1>
   </div>
   <nav>
-    <a href="/">Home</a>
-    <a href="https://github.com/akashktesla" target="_blank" >Projects</a>
-    <a href="/blogs">Blogs</a>
+    <a href="/">~</a>
+    <a href="https://github.com/akashktesla" target="_blank" >/Projects</a>
+    <a href="/blogs">/Blogs</a>
   </nav>
 </header>
 
