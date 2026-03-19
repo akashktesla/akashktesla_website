@@ -42,8 +42,7 @@
   ul li:before{
     content: "> ";
     color: #ffffff;
-    opacity: 0.8;
-
+    font-weight: bold;
   }
 
   ul li {
@@ -95,7 +94,7 @@ Visit my <a href="/blogs">Blog</a> to learn about cool stuff
 <section>
 <h3>Skillset</h3>
 <ul>
-<li>Python, Rust, c, c++, js, ts...</li>
+<li>Programming</li>
 <li>Machine Learning & AI</li>
 <li>Robotics & Mechatronics</li>
 <li>CAD & Machining</li>
