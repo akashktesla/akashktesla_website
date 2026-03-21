@@ -81,6 +81,7 @@ Visit my <a href="/blogs">Blog</a> to learn about cool stuff
 <h3>Hobbies & Interests</h3>
 <ul>
 <li>Machining & Robotics</li>
+<li>Quant</li>
 <li>AI / AGI Development</li>
 <li>Developer (Game, Web, App) </li>
 <li>Mechanical Engineering</li>
