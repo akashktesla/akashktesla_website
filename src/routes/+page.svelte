@@ -67,7 +67,7 @@ color: #00ffff; /* cyan on hover */
 <div class="profile-photo">
 <img src="/images/stick_akash_laptop.jpg" alt="Profile Photo" class="profile"/>
 <div class="bio">
-<h1>Akash K <i>Tesla</i>  </h1> 
+<h1>Akash Kolanchi </h1> 
 <h2>Machines and Muscles </h2>
 <p>
 Lives on Arch Linux and chaos energy.<br>
